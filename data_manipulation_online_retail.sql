@@ -58,7 +58,7 @@ group by customer_id;
 
 -- Create cohort index
 -- Save result set to temporary table
-create table retention_data
+create temp table retention_data
 as
 with year_month as (
 	select 
